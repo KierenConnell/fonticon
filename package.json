@@ -12,7 +12,7 @@
     "build": "webpack --display-modules",
     "start:dev": "webpack-dev-server",
     "build:prod": "webpack --display-modules --mode=production --port=8282",
-    "pre-commit": "pip install pre-commit && pre-commit install"
+    "pre-commit": "pip3 install pre-commit && pre-commit install"
   },
   "repository": {
     "type": "git",
