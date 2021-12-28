@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --display-modules",
     "start:dev": "webpack-dev-server",
-    "build:prod": "webpack --display-modules --mode=production",
+    "build:prod": "webpack --display-modules --mode=production --port=8282",
     "pre-commit": "pip install pre-commit && pre-commit install"
   },
   "repository": {
