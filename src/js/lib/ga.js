@@ -6,7 +6,6 @@ a = s.createElement(o), m = s.getElementsByTagName(o)[0];
 a.async = 1;
 a.src = g;
 m.parentNode.insertBefore(a, m)
-})(window, document, 'script', 'https://www.google-analytics.com/analytics.js',
+})(window, document, 'script', 'https://umami.kierenconnell.com/umami.js',
    'ga');
-ga('create', 'UA-83349671-1', 'auto');
-ga('send', 'pageview');
+ga('create', '62f5323e-dfde-4ecb-a2fb-ca86f2ac0ab1', 'auto');
